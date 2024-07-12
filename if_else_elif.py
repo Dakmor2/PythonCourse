@@ -12,6 +12,9 @@ if height >= 120:
     elif age <= 18:
         print("The ticket for young people is 7$.")
         bill = 7
+    elif age >= 45 and age <= 55:
+        print("The ticket for middle aged people is 0$.")
+        bill = 0
     else: 
         print("The ticket for adults is 12$.")
         bill = 12
@@ -22,4 +25,4 @@ if height >= 120:
     else:
         print("Your bill is", bill)
 else:
-    print("You are not tall enough for the rollercoaster.")
+    print("You are not tall enough for the rollercoaster.") [{}]
